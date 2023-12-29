@@ -1,0 +1,30 @@
+.blockquote{
+    position: relative;
+    margin: 1rem 2rem 0;
+    padding: 1rem 2rem;
+}
+
+.blockquote--quote{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    i{
+        color: #000;
+        font-size: 2.5rem;
+    }
+}
+
+.blockquote--title{
+    margin-left: 1.5rem;
+    
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: $font-title;
+}
+
+.blockquote--text{
+    color: #000;
+    font-size: 1.4rem;
+}

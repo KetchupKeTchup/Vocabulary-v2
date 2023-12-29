@@ -1,0 +1,61 @@
+.text--block{
+    &_sk{
+        display: block;   
+    }
+    &_uk{
+        display: block;
+    }
+    &_ua{
+        display: none;
+    }
+}
+
+.article--text_inner_active{
+    
+    .text--block{
+        &_sk{
+            display: none;   
+        }
+        &_uk{
+            display: none;
+        }
+        &_ua{
+            display: block;
+        }
+    }
+
+    .blockquote{
+        .text--block{
+            &_sk{
+                display: none;   
+            }
+            &_uk{
+                display: none;
+            }
+            &_ua{
+                display: block;
+            }
+        }
+    }
+}
+
+
+.text{
+    font-size: 1.2rem;
+    color: $color-text;
+    font-weight: 400;
+    
+    &.heading{
+        font-size: 1.5;
+        font-weight: 400;
+        color: #000;    
+    }
+}
+
+
+.text--chapter{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: #000;
+}
+

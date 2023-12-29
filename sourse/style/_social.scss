@@ -1,0 +1,29 @@
+.social{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-twitter{
+    font-size: 1.23rem;
+}
+
+.fa-facebook{
+    &:hover{
+        color: rgb(0, 119, 255)
+    }
+}
+.fa-instagram{
+    &:hover{
+        background: $instagram;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.fa-twitter{
+    &:hover{
+        color: rgb(0, 174, 255)
+    }
+}

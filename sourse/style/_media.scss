@@ -1,0 +1,16 @@
+@media screen and (max-width: 1441px) {
+    .conteiner-header{
+        max-width: 1100px;
+    }
+    .conteiner{
+        max-width: 1340px;
+    }
+    .card-inner_flex{
+        &.large{
+            margin: 22rem 3rem 0 3rem;
+        }
+        &.small{
+            margin: 8rem 2rem 0 2rem;
+        }
+    }
+}

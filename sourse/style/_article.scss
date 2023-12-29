@@ -1,0 +1,55 @@
+.article{
+    margin-top: 2rem;
+}
+.article--title_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article--title{
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.article--description{
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .date{
+        color: $color-text;
+        font-family: $font-text;
+    }
+    .category{
+        font-weight: 700;
+        color: #000;
+    }
+}
+
+.article--conteiner{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.article--photo{
+    margin: 3rem 0;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.article--text_inner{
+    position: relative;
+    padding: 0 5rem;
+}
+.article--flex{
+    display: flex;
+    flex-direction: column;
+    // gap: 1rem;
+}

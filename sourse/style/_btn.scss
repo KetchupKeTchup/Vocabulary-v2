@@ -1,0 +1,68 @@
+.btn--translate{
+    display: inline-block;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    
+    background: inherit;
+    
+    color: $color-text;
+    
+    font-size: 1.8rem;
+
+    cursor: pointer;
+    transition: all linear .2s;
+    opacity: .2;
+    
+    &:hover{
+        color: #285AEB;
+        opacity: 1;
+    }
+}
+
+
+.btn-category{
+    display: inline-block;
+    padding: .3rem 1.1rem;
+
+    font-family: $font-button;
+    font-weight: 700;
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    transition: all linear .3s;
+
+    &.blue{
+        background-color: rgba(0, 140, 255, .9);
+    }
+    &.green{
+        background-color: rgba(91, 172, 20, 0.9);
+    }
+    &.red{
+        background-color: rgba(180, 14, 14, 0.9);
+    }
+
+    &:hover{
+        &.blue{
+            background-color: rgba(0, 140, 255, 1);
+        }
+        &.green{
+            background-color: rgba(91, 172, 20, 1);
+        }
+        &.red{
+            background-color: rgba(180, 14, 14, 1);
+        }
+    }
+}

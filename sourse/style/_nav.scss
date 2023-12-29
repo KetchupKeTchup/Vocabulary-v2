@@ -1,0 +1,15 @@
+.nav{
+    padding: 2rem 0;
+}
+.nav--inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.nav--item{
+    font-size: 1.1rem;
+    color: $color-white;
+    font-variant: 400;
+}
