@@ -45,13 +45,13 @@
     transition: all linear .3s;
 
     &.blue{
-        background-color: rgba(0, 140, 255, .9);
+        background-color: rgba(0, 140, 255, .7);
     }
     &.green{
-        background-color: rgba(91, 172, 20, 0.9);
+        background-color: rgba(91, 172, 20, .7);
     }
     &.red{
-        background-color: rgba(180, 14, 14, 0.9);
+        background-color: rgba(180, 14, 14, .7);
     }
 
     &:hover{
