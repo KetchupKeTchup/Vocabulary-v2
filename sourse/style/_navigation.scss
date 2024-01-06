@@ -1,0 +1,30 @@
+.navigation{
+    padding: 1rem 0 2rem 0;
+}
+.navigation-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.navigation-arrow{
+    width: 3.1rem;
+    height: 3.1rem;
+
+    border-radius: 50%;
+
+    border: none;
+    cursor: pointer;
+}
+
+.navigation-item{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #000;
+}
+.navigation-noPage{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #000;
+}

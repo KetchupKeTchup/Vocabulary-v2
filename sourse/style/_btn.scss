@@ -43,6 +43,7 @@
     cursor: pointer;
 
     transition: all linear .3s;
+    background-color: b;
 
     &.blue{
         background-color: rgba(0, 140, 255, .7);
@@ -52,6 +53,15 @@
     }
     &.red{
         background-color: rgba(180, 14, 14, .7);
+    }
+    &.yellow{
+        background-color: rgba(253, 236, 2, 0.7);
+    }
+    &.darkblue{
+        background-color: rgba(61, 2, 253, 0.7);
+    }
+    &.biznes{
+        background-color: rgba(2, 236, 253, 0.7);
     }
 
     &:hover{
@@ -63,6 +73,15 @@
         }
         &.red{
             background-color: rgba(180, 14, 14, 1);
+        }
+        &.yellow{
+            background-color: rgba(253, 236, 2, 1);
+        }
+        &.darkblue{
+            background-color: rgba(61, 2, 253, 1);
+        }
+        &.biznes{
+            background-color: rgba(2, 236, 253, 1);
         }
     }
 }

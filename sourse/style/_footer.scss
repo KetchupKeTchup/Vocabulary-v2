@@ -1,0 +1,37 @@
+.footer{
+    padding: 2rem 0 4rem 0;
+    background: #000;
+}
+
+.footer-inner{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    border-top: 1px solid #999;
+}
+
+.footer-social{
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.footer-category{
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-info{
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

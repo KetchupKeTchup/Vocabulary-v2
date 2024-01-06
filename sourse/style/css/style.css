@@ -142,6 +142,12 @@ ul, li, ol {
   font-weight: 700;
 }
 
+.article-subtitle {
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
 .article--description {
   position: relative;
   margin-top: 1rem;
@@ -411,6 +417,76 @@ ul, li, ol {
   justify-items: center;
 }
 
+.navigation {
+  padding: 1rem 0 2rem 0;
+}
+
+.navigation-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navigation-arrow {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.navigation-item {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.navigation-noPage {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.footer {
+  padding: 2rem 0 4rem 0;
+  background: #000;
+}
+
+.footer-inner {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  border-top: 1px solid #999;
+}
+
+.footer-social {
+  width: 33.3333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.footer-category {
+  width: 33.3333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-info {
+  width: 33.3333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .social {
   display: flex;
   align-items: center;
@@ -490,6 +566,7 @@ ul, li, ol {
   outline: none;
   cursor: pointer;
   transition: all linear 0.3s;
+  background-color: b;
 }
 .btn-category.blue {
   background-color: rgba(0, 140, 255, 0.7);
@@ -500,6 +577,15 @@ ul, li, ol {
 .btn-category.red {
   background-color: rgba(180, 14, 14, 0.7);
 }
+.btn-category.yellow {
+  background-color: rgba(253, 236, 2, 0.7);
+}
+.btn-category.darkblue {
+  background-color: rgba(61, 2, 253, 0.7);
+}
+.btn-category.biznes {
+  background-color: rgba(2, 236, 253, 0.7);
+}
 .btn-category:hover.blue {
   background-color: rgb(0, 140, 255);
 }
@@ -508,6 +594,15 @@ ul, li, ol {
 }
 .btn-category:hover.red {
   background-color: rgb(180, 14, 14);
+}
+.btn-category:hover.yellow {
+  background-color: rgb(253, 236, 2);
+}
+.btn-category:hover.darkblue {
+  background-color: rgb(61, 2, 253);
+}
+.btn-category:hover.biznes {
+  background-color: rgb(2, 236, 253);
 }
 
 .grid-area_one {
