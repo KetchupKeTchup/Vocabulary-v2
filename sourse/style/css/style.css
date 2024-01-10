@@ -487,6 +487,16 @@ ul, li, ol {
   flex-direction: column;
 }
 
+.aside {
+  padding: 4rem 0;
+}
+
+.aside-inner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 .social {
   display: flex;
   align-items: center;
@@ -648,7 +658,7 @@ html {
   font-family: "Metrophobic", sans-serif;
   color: #fff;
   line-height: 1.5;
-  background: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   scroll-behavior: smooth;
 }
 
