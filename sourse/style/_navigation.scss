@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.4rem;
 }
 .navigation-arrow{
     width: 3.1rem;
@@ -18,9 +18,34 @@
 }
 
 .navigation-item{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+    width: 3.1rem;
+    height: 3.1rem;
+
+    border-radius: 50%;
+    
     font-size: 1.6rem;
     font-weight: 600;
-    color: #000;
+
+    &.active{
+      background: rgba(4, 4, 216, 0.806); 
+      
+      p{
+        color: #fff;
+      }
+    }
+    
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-size: 1.4rem;
+        color: #000;
+    }
 }
 .navigation-noPage{
     display: block;
